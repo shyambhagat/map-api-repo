@@ -1,0 +1,16 @@
+git init
+git status
+git add Commands.txt
+git status
+git commit -m "Commands File Added to project"
+git config --global user.email "shyambhagat@gmail.com"
+git config --global user.name "Shyam Bhagat"
+git commit -m "Commands File Added to project"
+git status
+git log
+
+git add Commands.txt Welcome.py
+git status
+git commit -m "Modified Commands and added Welcome.py"
+git commit --amend -m "New commit message"
+git log
